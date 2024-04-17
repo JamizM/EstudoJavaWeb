@@ -2,7 +2,7 @@ const http = require('http');
 const express = require('express');
 const app = express();
 const bodyParser = require ('body-parser');
-app.use (bodyParser.json());
+app.use(bodyParser.json());
 const porta = 8080;
 
 const clientes = [
@@ -33,7 +33,14 @@ app.post('/clientes', (req, res, next) => {
     const cliente = req.body;
     clientes.push({id: contador += 1, nome: cliente.nome, email: cliente.email});
     console.log(clientes);
-    res.end();
+    res.status(201).json(clientes);
+});
+
+app.put('/clientes/:id', (req, res, next) => {
+    const clienteId = parseInt(req.params.id);
+    const clienteAtualizado = req.body;
+
+    const clienteIndex = clientes.findIndex(c => c.id === clienteId);
 });
 
 const server = http.createServer(app);
