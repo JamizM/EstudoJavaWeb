@@ -1,0 +1,16 @@
+{
+  "name": "src-bossini",
+  "version": "1.0.0",
+  "description": "Repositorio destinado para estudos java sobre WEB -  HTPP, API RestFull, Postman entre outros apostila encontrado em: https://u.pcloud.link/publink/show?code=ij6rtalK",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2"
+  }
+}
