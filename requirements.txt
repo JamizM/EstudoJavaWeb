@@ -1,2 +1,0 @@
-importado o "jakarta.persistence.*;" ao inves de "javax.persistence"
-
