@@ -1,2 +1,5 @@
-site para pegar API:
+site para pegar API no arquivo Oracle_java_HTTP_Bossini:
 https://jsonplaceholder.typicode.com
+
+Outros arquivos como: src_bossini2, src-bossini: 
+estão em JS puro
