@@ -1,0 +1,20 @@
+{
+  "name": "src_bossini2",
+  "version": "1.0.0",
+  "description": "Esta pasta fala sobre a apostila 03_apostila_protocolo_http.pdf\r escontra-se em: \r https://u.pcloud.link/publink/show?code=ij6rtalK",
+  "main": "SistemaAcademico.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src_bossini2/SistemaAcademico.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
