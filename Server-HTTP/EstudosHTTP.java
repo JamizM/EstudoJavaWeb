@@ -26,7 +26,7 @@ public class EstudosHTTP{
 
 
         // System.out.println(httpresponse.body()); //informacao do site 
-        // System.out.println(httpresponse.statusCode()); //statusd a resposta - 200 igual a OK
+        // System.out.println(httpresponse.statusCode()); //status daa resposta - 200 igual a OK
         // System.out.println(httpresponse.version()); //tipo de protocolo
 
         System.out.println("Teste");

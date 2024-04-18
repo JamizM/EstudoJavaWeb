@@ -1,0 +1,2 @@
+site para pegar API:
+https://jsonplaceholder.typicode.com
